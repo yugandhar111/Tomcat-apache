@@ -1,9 +1,12 @@
 # Tomcat-apache
 $ cd /opt
-$ sudo wget http://apache.YourFavoriteMirror.com/tomcat/tomcat-[#]/v[#]/apache-tomcat-[#].tar.gz
+$ sudo wget https://downloads.apache.org/tomcat/tomcat-9/v9.0.45/bin/apache-tomcat-9.0.45.tar.gz
 $ ls
-$ sudo tar -xvzf apache-tomcat-9.0.44.tar.gz  [to exract the file]
-$ sudo chmod -R 777 apache-maven-3.6.3  [giving full permistion to the floder]
+$ apache-tomcat-9.0.45.tar.gz
+$ sudo tar -xvzf apache-tomcat-9.0.44.tar.gz [to exract the file]
+$ ls
+$ apache-tomcat-9.0.45  apache-tomcat-9.0.45.tar.gz
+$ sudo chmod -R 777 apache-tomcat-9.0.44 [giving full permistion to the floder]
 $ cd apache-tomcat-9.0.44
 $ cd bin [bin forlder has starting scripts]
 $ sh startup.sh [to start the apache server]
